@@ -1,6 +1,6 @@
 {
-    "name": "composer/composer",
-    "description": "Composer helps you declare, manage and install dependencies of PHP projects, ensuring you have the right stack everywhere.",
+    "name": "composer-fork/composer",
+    "description": "[Non-official] Composer helps you declare, manage and install dependencies of PHP projects, ensuring you have the right stack everywhere.",
     "keywords": ["package", "dependency", "autoload"],
     "homepage": "http://getcomposer.org/",
     "type": "library",
@@ -43,11 +43,6 @@
         "psr-0": { "Composer\\Test": "tests/" }
     },
     "bin": ["bin/composer"],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-    },
     "scripts": {
         "test": "phpunit"
     }
